@@ -4,9 +4,9 @@ exports[`App component renders App 1`] = `
 <DocumentFragment>
   <p>
     Get a quote here! Click the button!
-    </p>
-    <button>  
-      Click me!
-      </button>
+  </p>
+  <button>
+    Click here!
+  </button>
 </DocumentFragment>
 `;
