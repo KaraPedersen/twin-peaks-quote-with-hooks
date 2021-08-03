@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Quote = ({ quote }) => (
-  <p>{quote.quote}</p>
+  <p>{quote}</p>
 );
 
 Quote.propTypes = {
-  quote: PropTypes.object,
+  quote: PropTypes.string.isRequired,
 };
 
 export default Quote;

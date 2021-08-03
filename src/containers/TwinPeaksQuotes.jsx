@@ -5,12 +5,12 @@ import { fetchQuote } from '../services/twinPeaksApi';
 
 const TwinPeaksQuotes = () => {
   // eslint-disable-next-line max-len
-  const [quote, setQuote] = useState({ 'quote': 'Get a quote here! Click the button!' });
+  const [quote, setQuote] = useState('Get a quote here! Click the button!');
 
   const handleClick = async () => {
     const res = await fetchQuote();
     const quote = JSON.stringify(res);
-    setQuote({ quote });
+    setQuote(quote);
   };
 
   return (
