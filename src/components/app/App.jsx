@@ -1,5 +1,6 @@
 import React from 'react';
+import TwinPeaksQuotes from '../../containers/TwinPeaksQuotes';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <TwinPeaksQuotes />;
 }
